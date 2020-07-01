@@ -1,0 +1,23 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 400%;
+  background-color: red;
+}
+#boxOne {
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+  position: static;
+}
+#boxTwo {
+  height: 300px;
+  width: 100%;
+  background-color: green;
+  position: fixed;
+  left: 0;
+}
